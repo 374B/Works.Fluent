@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" total="10" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-01-13" time="13:26:34">
+  <environment nunit-version="2.6.3.13283" clr-version="4.0.30319.18052" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Dropbox\Dev\NUnit\NUnit-2.6.3\bin" machine-name="SPEEDY" user="Wayne" user-domain="SPEEDY" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" executed="True" result="Success" success="True" time="0.307" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.Tests\bin\Debug\Works.Fluent.Tests.dll" executed="True" result="Success" success="True" time="0.282" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Works" executed="True" result="Success" success="True" time="0.282" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Fluent" executed="True" result="Success" success="True" time="0.282" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.282" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="FluentExceptionHandlerTests" executed="True" result="Success" success="True" time="0.117" asserts="0">
+                        <results>
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Return_An_Object_Instance" executed="True" result="Success" success="True" time="0.055" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Execute_Action" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Handle_Registered_Exception" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Not_Handle_Unregistered_Exception" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Default_When_Exception" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Func_Result_When_No_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Handle_Unregistered_Exceptions" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Not_Handle_Registered_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
