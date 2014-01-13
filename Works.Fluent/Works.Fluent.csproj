@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FluentExceptionHandler.cs" />
+    <Compile Include="FluentSwitch.cs" />
     <Compile Include="Helpers\FluentInterface.cs" />
     <Compile Include="Helpers\IFluentInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -7,6 +7,16 @@ namespace Works.Fluent
 {
   public class FluentExceptionHandler : FluentInterface
   {
+    #region Entry Points
+
+    public static IHandleExceptionOrTry Handle<T>(Action<T> Handler) where T : Exception
+    {
+      var actualHandler = new FluentExceptionHandlerImpl();
+      return actualHandler.Handle(Handler);
+    }
+
+    #endregion Entry Points
+
     #region Interfaces
 
     [EditorBrowsable(EditorBrowsableState.Never)]
@@ -25,15 +35,13 @@ namespace Works.Fluent
 
     #endregion Interfaces
 
-    #region Entry Points
+    #region Ctor
 
-    public static IHandleExceptionOrTry Handle<T>(Action<T> Handler) where T : Exception
+    private FluentExceptionHandler()
     {
-      var actualHandler = new FluentExceptionHandlerImpl();
-      return actualHandler.Handle(Handler);
     }
 
-    #endregion Entry Points
+    #endregion Ctor
 
     #region Implementations
 

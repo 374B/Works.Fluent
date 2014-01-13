@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Works.Fluent.Tests
 {
-  public class FluentExceptionHandlerTests
+  internal class FluentExceptionHandlerTests
   {
     [Test]
     public void Handle_Should_Return_An_Object_Instance()
