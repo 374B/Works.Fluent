@@ -1,28 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using Works.Fluent.Helpers;
 
 namespace Works.Fluent
 {
-  public interface IHandleExceptionOrTry
+  public class FluentExceptionHandler : FluentInterface
   {
-    ///<exception cref="ArgumentNullException">Handler is null</exception>
-    IHandleExceptionOrTry Handle<T>(Action<T> Handler) where T : Exception;
+    #region Interfaces
 
-    void Try(Action Action);
+    [EditorBrowsable(EditorBrowsableState.Never)]
+    public interface IHandleExceptionOrTry : IFluentInterface
+    {
+      ///<exception cref="ArgumentNullException">Handler is null</exception>
+      IHandleExceptionOrTry Handle<T>(Action<T> Handler) where T : Exception;
 
-    T Try<T>(Func<T> Func, T Default);
+      void Try(Action Action);
 
-    ///<exception cref="ArgumentNullException">Handler is null</exception>
-    IHandleExceptionOrTry Unhandled(Action<Exception> Handler);
-  }
+      T Try<T>(Func<T> Func, T Default);
 
-  public static class FluentExceptionHandler
-  {
+      ///<exception cref="ArgumentNullException">Handler is null</exception>
+      IHandleExceptionOrTry Unhandled(Action<Exception> Handler);
+    }
+
+    #endregion Interfaces
+
+    #region Entry Points
+
     public static IHandleExceptionOrTry Handle<T>(Action<T> Handler) where T : Exception
     {
       var actualHandler = new FluentExceptionHandlerImpl();
       return actualHandler.Handle(Handler);
     }
+
+    #endregion Entry Points
+
+    #region Implementations
 
     private class FluentExceptionHandlerImpl : IHandleExceptionOrTry
     {
@@ -93,5 +106,7 @@ namespace Works.Fluent
         }
       }
     }
+
+    #endregion Implementations
   }
 }

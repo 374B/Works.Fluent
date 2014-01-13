@@ -40,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FluentExceptionHandler.cs" />
+    <Compile Include="Helpers\FluentInterface.cs" />
+    <Compile Include="Helpers\IFluentInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
