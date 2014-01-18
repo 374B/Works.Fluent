@@ -1,59 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" total="35" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-01-18" time="17:38:51">
+<test-results name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" total="35" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-01-18" time="17:45:48">
   <environment nunit-version="2.6.3.13283" clr-version="4.0.30319.34003" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Dropbox\Dev\NUnit\NUnit-2.6.3\bin" machine-name="WUB" user="Wayne" user-domain="WUB" />
   <culture-info current-culture="en-AU" current-uiculture="en-GB" />
-  <test-suite type="Project" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" executed="True" result="Success" success="True" time="0.341" asserts="0">
+  <test-suite type="Project" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.nunit" executed="True" result="Success" success="True" time="0.062" asserts="0">
     <results>
-      <test-suite type="Assembly" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.Tests\bin\Debug\Works.Fluent.Tests.dll" executed="True" result="Success" success="True" time="0.322" asserts="0">
+      <test-suite type="Assembly" name="C:\Dropbox\Dev\C#\Works.Fluent\Works.Fluent.Tests\bin\Debug\Works.Fluent.Tests.dll" executed="True" result="Success" success="True" time="0.062" asserts="0">
         <results>
-          <test-suite type="Namespace" name="Works" executed="True" result="Success" success="True" time="0.322" asserts="0">
+          <test-suite type="Namespace" name="Works" executed="True" result="Success" success="True" time="0.062" asserts="0">
             <results>
-              <test-suite type="Namespace" name="Fluent" executed="True" result="Success" success="True" time="0.322" asserts="0">
+              <test-suite type="Namespace" name="Fluent" executed="True" result="Success" success="True" time="0.062" asserts="0">
                 <results>
-                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.321" asserts="0">
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="0.062" asserts="0">
                     <results>
-                      <test-suite type="TestFixture" name="FluentExceptionHandlerTests" executed="True" result="Success" success="True" time="0.105" asserts="0">
+                      <test-suite type="TestFixture" name="FluentExceptionHandlerTests" executed="True" result="Success" success="True" time="0.017" asserts="0">
                         <results>
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Return_An_Object_Instance" executed="True" result="Success" success="True" time="0.062" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.004" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Execute_Action" executed="True" result="Success" success="True" time="0.003" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Handle_Registered_Exception" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Not_Handle_Unregistered_Exception" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Default_When_Exception" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Func_Result_When_No_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Handle_Unregistered_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Return_An_Object_Instance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Handle_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Execute_Action" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Handle_Registered_Exception" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_Should_Not_Handle_Unregistered_Exception" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Default_When_Exception" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Try_T_Should_Return_Func_Result_When_No_Exceptions" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Handle_Unregistered_Exceptions" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                           <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Not_Handle_Registered_Exceptions" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentExceptionHandlerTests.Unhandled_Should_Throw_ArgumentNullException_For_Null_Handler" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                         </results>
                       </test-suite>
-                      <test-suite type="TestFixture" name="FluentSwitchTests" executed="True" result="Success" success="True" time="0.094" asserts="0">
+                      <test-suite type="TestFixture" name="FluentSwitchTests" executed="True" result="Success" success="True" time="0.042" asserts="0">
                         <results>
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Case_Should_Throw_ArgumentNullException_When_Values_Is_Null" executed="True" result="Success" success="True" time="0.004" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Comparer_Should_Return_An_Object_Instance" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Comparer_Should_Throw_ArgumentNullException_When_Comparer_Is_Null" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Default_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.006" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Do_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Do_T_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Default_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.004" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Do_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Do_T_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Execute_Matched_Case" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Match_Null_Value" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Not_Execute_Unmatched_Case" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Execute_All_Matched" executed="True" result="Success" success="True" time="0.003" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Execute_Default_When_No_Matches" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Not_Execute_Default_When_A_Match_Is_Made" executed="True" result="Success" success="True" time="0.002" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Not_Execute_Unmatched" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Throw_ArgumentNullException_When_Params_Null" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Throw_ArgumentNullException_When_Values_Null" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Execute_Matched_Case" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Executed_Default_When_No_Matches" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Default_When_A_Match_Is_Made" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Subsequent_Matches" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Unmatched" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Throw_ArgumentNullException_When_Params_Null" executed="True" result="Success" success="True" time="0.001" asserts="1" />
-                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Throw_ArgumentNullException_When_Values_Null" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Case_Should_Throw_ArgumentNullException_When_Values_Is_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Comparer_Should_Return_An_Object_Instance" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Comparer_Should_Throw_ArgumentNullException_When_Comparer_Is_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Default_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Do_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Do_T_Should_Allow_Null_Action" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Default_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Do_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Null_Do_T_Action_Should_Be_Handled" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Execute_Matched_Case" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Match_Null_Value" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.Switch_Should_Not_Execute_Unmatched_Case" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Execute_All_Matched" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Execute_Default_When_No_Matches" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Not_Execute_Default_When_A_Match_Is_Made" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Not_Execute_Unmatched" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Throw_ArgumentNullException_When_Params_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchAll_Should_Throw_ArgumentNullException_When_Values_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Execute_Matched_Case" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Executed_Default_When_No_Matches" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Default_When_A_Match_Is_Made" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Subsequent_Matches" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Not_Execute_Unmatched" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Throw_ArgumentNullException_When_Params_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Works.Fluent.Tests.FluentSwitchTests.SwitchFirst_Should_Throw_ArgumentNullException_When_Values_Null" executed="True" result="Success" success="True" time="0.000" asserts="1" />
                         </results>
                       </test-suite>
                     </results>
