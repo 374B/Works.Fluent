@@ -68,7 +68,7 @@ With FluentSwitch you can do this in a much more elegant and correct way:
       
 Comparer takes any method or function with a signature of Func<T,T,bool> so we can leverage the StringComparer.OrdinalIgnoreCase.Equals method or we could write our own method if we wanted.
 
-FluentSwitch also provides much better handling of collections. If for example you wanted to loop through a collection and try to match each value using, you might traditionally write something like:
+FluentSwitch also provides much better handling of collections. If for example you wanted to loop through a collection and try to match each value, traditionally you might write something like:
 
       var values = new List<string> { "A", "B", "C" };
 
@@ -91,7 +91,7 @@ FluentSwitch also provides much better handling of collections. If for example y
         }
       }
       
-The same can be rewritten using FluentSwitch almost identically to the above examples, however instead of calling .Switch, we call .SwitchAll instead. E.G:
+This can be rewritten using FluentSwitch almost identically to the above examples, however instead of calling the Switch method we call the SwitchAll method instead. E.G:
 
     FluentSwitch<string>
       .Comparer(String.Equals)
@@ -102,7 +102,7 @@ The same can be rewritten using FluentSwitch almost identically to the above exa
       .SwitchAll(values);
 
 
-And then there's the case where you only want to "switch" the first matching value, then stop. Traditionally this is messy, you might have something like:
+There's also the situation where you only want to "switch" the first matching value and then stop. Traditionally this is messy. You might have something like:
 
       var values = new List<string> { "A", "B", "C" };
 
@@ -131,7 +131,7 @@ And then there's the case where you only want to "switch" the first matching val
 
       }
       
-With FluentSwitch, it's the same as the previous example, but instead of .SwitchAll we use .SwitchFirst
+With FluentSwitch, it's the same as the previous example, but instead of the SwitchAll method we use the SwitchFirst method.
 
     FluentSwitch<string>
       .Comparer(String.Equals)
