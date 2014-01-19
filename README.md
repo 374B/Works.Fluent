@@ -68,7 +68,7 @@ With FluentSwitch you can do this in a much more elegant and correct way:
       
 Comparer takes any method or function with a signature of Func<T,T,bool> so we can leverage the StringComparer.OrdinalIgnoreCase.Equals method or we could write our own method if we wanted.
 
-FluentSwitch also provides much better handling of collections. If for example you wanted to loop through a collection and try to match each value, traditionally you might write something like:
+FluentSwitch also provides much better handling of collections. If for example you wanted to loop through a collection and try to match each value you might traditionally write something like:
 
       var values = new List<string> { "A", "B", "C" };
 
