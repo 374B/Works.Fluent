@@ -1,8 +1,9 @@
 Works.Fluent
 ============
 
+<h3>FluentSwitch</h3>
 
-FluentSwitch
+A replacement for the standard switch statement. Uses a fluent style interface and provides much more flexibility compared to the standard switch statement.
 
 A simple switch statement such as:
 
@@ -65,7 +66,7 @@ With FluentSwitch you can do this in a much more elegant and correct way:
       .Default(HandleOther)
       .Switch(value);
       
-Much better. Comparer takes any method or function with a signature of Func<T,T,bool> so we can leverage the StringComparer.OrdinalIgnoreCase.Equals method or we could write our own method if we wanted.
+Comparer takes any method or function with a signature of Func<T,T,bool> so we can leverage the StringComparer.OrdinalIgnoreCase.Equals method or we could write our own method if we wanted.
 
 FluentSwitch also provides much better handling of collections. If for example you wanted to loop through a collection and try to match each value using, you might traditionally write something like:
 
